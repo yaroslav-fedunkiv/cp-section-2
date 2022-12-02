@@ -6,7 +6,7 @@ import {HeaderComponent} from "./header/header.component";
 import {FormsModule} from "@angular/forms";
 import { RecipesComponent } from './recipes/recipes.component';
 import { RecipesListComponent } from './recipes/recipes-list/recipes-list.component';
-import { ResipesDetailComponent } from './recipes/resipes-detail/resipes-detail.component';
+import { RecipeDetailComponent } from './recipes/resipes-detail/recipe-detail.component';
 import { RecipeItemComponent } from './recipes/recipes-list/resipes-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
@@ -17,7 +17,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     HeaderComponent,
     RecipesComponent,
     RecipesListComponent,
-    ResipesDetailComponent,
+    RecipeDetailComponent,
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent

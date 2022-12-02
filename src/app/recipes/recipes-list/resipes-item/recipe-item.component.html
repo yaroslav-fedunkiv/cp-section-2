@@ -1,6 +1,7 @@
 <a
   href="#"
-  class="list-group-item clearfix">
+  class="list-group-item clearfix"
+  (click)="onSelected()">
   <div class="pull0left">
     <h4 class="list-group-item-heading">{{recipe.name}}</h4>
     <p class="list-group-item-text">{{recipe.description}}</p>
@@ -11,5 +12,5 @@
             alt="{{recipe.name}}"
             class="img-responsive"
             style="max-height: 50px;">
-        </span>
+  </span>
 </a>
